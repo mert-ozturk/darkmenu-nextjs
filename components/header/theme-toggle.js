@@ -24,8 +24,8 @@ const ThemeToggle = () => {
        defaultedSelected={resolvedTheme === 'dark'}
        size = 'md'
        onChange={handleToggle}
-       startContext={<FiSun />}
-       endContext={<FiMoon />}
+       startContent={<FiSun />}
+       endContent={<FiMoon />}
        >
         {resolvedTheme === 'dark'}
        </Switch>
